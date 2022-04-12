@@ -1,0 +1,5 @@
+squares = [i**2 for i in range(10)]
+# lista = [funcao(x) for x in range(n)] mapeia a funcao em n valores da lista
+
+numeros = [i for i in range(10)]
+print(squares, numeros)

@@ -1,0 +1,5 @@
+#preenchimento de lista com if e for em uma linha
+
+lista = [0 if i%2==0 else 1 for i in range(10)]
+
+print(lista)

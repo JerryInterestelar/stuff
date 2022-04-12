@@ -1,0 +1,14 @@
+import numpy as np
+
+sizes = [1,3,2]
+
+#preenchimento rapido de list
+
+var = zip(sizes[:-1], sizes[1:])
+#list = [np.random.randn(i,j) for i,j in var]
+
+list = []
+for i, j in var:
+	list.append(np.random.randn(i,j))
+
+print(list)
